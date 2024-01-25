@@ -7,10 +7,9 @@
 5. add config file src> firebase.init.js
 6.go to docs > Build > Authentication >web > get started
 7. export app from the firebase.init.js file > export default app
-8.import { getAuth } from "firebase/auth" > log in.jsx
-9.crate     const GoogleProvider = new GoogleAuthProvider() 
-10.
-	
+8.import { getAuth } from "firebase/auth" > log in.jsx    
+
+	const GoogleProvider = new GoogleAuthProvider() 
  	const auth = getAuth();
 	signInWithPopup(auth, provider)
 	.then((res)=> {
