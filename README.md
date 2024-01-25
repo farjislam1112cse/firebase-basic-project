@@ -9,9 +9,10 @@
 7. export app from the firebase.init.js file > export default app
 8.import { getAuth } from "firebase/auth" > log in.jsx
 9.crate     const GoogleProvider = new GoogleAuthProvider() 
-10.const auth = getAuth();
-11. signInWithPopup(auth, provider)
-
+10.
+	
+ 	const auth = getAuth();
+	signInWithPopup(auth, provider)
 	.then((res)=> {
 		const user = res.user
 		consile.log(user)
