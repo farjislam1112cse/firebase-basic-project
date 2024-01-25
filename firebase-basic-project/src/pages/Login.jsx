@@ -4,7 +4,7 @@ import SocialLogin from '../Component/SocialLogin';
 const Login = () => {
    
     return (
-        <div className='flex'>
+        <div className='flex relative'>
             <div className='w-[50%]'></div>
             <div className='w-[50%]'>
                 <div className="relative flex flex-col text-gray-700 bg-transparent shadow-none rounded-xl bg-clip-border">
@@ -78,6 +78,7 @@ const Login = () => {
                         </p>
                        
                     </form>
+                   
                     <SocialLogin></SocialLogin>
                     
                 </div>
